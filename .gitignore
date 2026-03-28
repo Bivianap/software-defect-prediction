@@ -1,0 +1,21 @@
+
+config.py
+encoder.pkl
+kmeans.pkl
+bug_predictor.pkl
+output.ipynb
+.venv12/
+target_repo_azure/
+target_repo/
+data/
+catboost_info/
+test*.ipynb
+__pycache__/
+*.pyc
+data_description.txt
+lime*
+*.pkl
+*.csv
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
