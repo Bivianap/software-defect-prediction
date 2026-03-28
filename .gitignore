@@ -12,7 +12,6 @@ catboost_info/
 test*.ipynb
 __pycache__/
 *.pyc
-data_description.txt
 lime*
 *.pkl
 *.csv
