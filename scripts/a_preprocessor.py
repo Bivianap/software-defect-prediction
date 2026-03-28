@@ -133,7 +133,7 @@ def generate_author_category_mapping(original_authors, orig_to_unified, contribu
 def normalization_data(bugeaded_data, mode):
     
     def split_camel_case(text):
-        # Separate words in CamelCase: "GabriellaDivine" -> "Gabriella Divine"
+        # Separate words in CamelCase: "BivianaPacheco" -> "Biviana Pacheco"
         return re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', text)
 
     # apply function to unify authors
